@@ -1,1 +1,1 @@
-best fucking app still allowed for bloxd 
+Bloxd.io's best launcher!
