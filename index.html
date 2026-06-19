@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   <meta name="description"
-    content="Facet is a powerful Bloxd launcher with creator tools, workshop installs, dev utilities, and quality-of-life upgrades in one place.">
+    content="Bloxdrinth is a powerful Bloxd launcher with creator tools, workshop installs, dev utilities, and quality-of-life upgrades in one place.">
   <meta name="theme-color" content="#ff5e2e">
   <title>Bloxdrinth</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -881,8 +881,8 @@
       <p>Bloxdrinth and BloxdForge are different apps.</p>
     </div>
     <div class="split-container">
-      <div class="split-card facet">
-        <h2>Facet</h2>
+      <div class="split-card bloxdrinth">
+        <h2>Bloxdrinth</h2>
         <p>A launcher, with everything. QoL, dev tools, and community features.</p>
         <div class="version-tag">v1.1</div>
       </div>
@@ -906,11 +906,11 @@
     (function () {
       const toast = document.getElementById('site-toast');
       const closeBtn = document.getElementById('site-toast-close');
-      if (toast && closeBtn && !localStorage.getItem('facet_main_site_announcement_seen_v1')) {
+      if (toast && closeBtn && !localStorage.getItem('bloxdrinth_main_site_announcement_seen_v1')) {
         setTimeout(() => toast.classList.add('show'), 1200);
         closeBtn.addEventListener('click', function () {
           toast.classList.remove('show');
-          localStorage.setItem('facet_main_site_announcement_seen_v1', '1');
+          localStorage.setItem('bloxdrinth_main_site_announcement_seen_v1', '1');
         });
       }
 
