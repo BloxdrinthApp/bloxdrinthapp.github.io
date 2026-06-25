@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#141313">
+  <meta name="theme-color" content="#303031">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Bloxdrinth</title>
@@ -30,9 +30,9 @@
     body {
       margin: 0;
       height: 100%;
-      background: #141313;
+      background: #303031;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #e0e0e0;
+      color: #f8d8b0;
       overflow: hidden;
     }
 
@@ -43,7 +43,7 @@
       gap: 20px;
       justify-content: space-between;
       align-items: stretch;
-      background: radial-gradient(circle at top right, #1e1c1c, #141313);
+      background: radial-gradient(circle at top right, #3c3c3d, #303031);
       transition: all 0.3s ease;
     }
 
@@ -59,8 +59,8 @@
     }
 
     .sidebar {
-      background: linear-gradient(180deg, #1b1a1a 0%, #191818 100%);
-      border: 1px solid #2c2b2b;
+      background: linear-gradient(180deg, #282829 0%, #242425 100%);
+      border: 1px solid #444445;
       border-radius: 35px;
       padding: 24px 20px;
       width: 30vh;
@@ -96,20 +96,20 @@
       left: 0;
       right: 0;
       height: 1px;
-      background: linear-gradient(90deg, transparent, #ff6b3944, transparent);
+      background: linear-gradient(90deg, transparent, rgba(19, 64, 129, 0.27), transparent);
     }
 
     .logo {
       text-align: center;
       margin-bottom: 24px;
       padding-bottom: 20px;
-      border-bottom: 1px solid #2c2b2b;
+      border-bottom: 1px solid #444445;
     }
 
     .logo h1 {
       font-size: 1.8rem;
       margin: 0;
-      background: linear-gradient(45deg, #ff6b39, #ff8c5a);
+      background: linear-gradient(45deg, #134081, #0a2852);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-weight: 700;
@@ -117,7 +117,8 @@
     }
 
     .logo span {
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       font-size: 0.8rem;
       letter-spacing: 1px;
     }
@@ -135,13 +136,13 @@
     }
 
     .cards::-webkit-scrollbar-thumb {
-      background: #ff6b39;
+      background: #134081;
       border-radius: 10px;
     }
 
     .card {
-      background: linear-gradient(90deg, #262525 0%, #242323 100%);
-      border: 1px solid #3a3939;
+      background: linear-gradient(90deg, #383839 0%, #343435 100%);
+      border: 1px solid #4a4a4b;
       padding: 16px 20px;
       border-radius: 18px;
       display: flex;
@@ -161,12 +162,12 @@
     .card:hover {
       transform: translateY(-3px);
       box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
-      border-color: #4a4949;
+      border-color: #5a5a5b;
     }
 
     .card-title {
       font-size: 1.1rem;
-      color: #e8e8e8;
+      color: #f8d8b0;
       font-weight: 500;
       z-index: 1;
     }
@@ -174,19 +175,19 @@
     .card-icon {
       width: 50px;
       height: 50px;
-      background: rgba(255, 107, 57, 0.1);
+      background: rgba(19, 64, 129, 0.1);
       border-radius: 14px;
       margin-left: 12px;
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 1.6rem;
-      color: #ff6b39;
+      color: #134081;
       z-index: 1;
     }
 
     .bottom-section {
-      border-top: 1px solid #2c2b2b;
+      border-top: 1px solid #444445;
       padding-top: 20px;
     }
 
@@ -199,13 +200,13 @@
     .cube-btn {
       width: 70px;
       height: 70px;
-      background: linear-gradient(145deg, #262525, #212020);
-      border: 1px solid #444343;
+      background: linear-gradient(145deg, #383839, #2b2b2c);
+      border: 1px solid #4a4a4b;
       border-radius: 18px;
       font-size: 1.6rem;
       font-weight: bold;
       line-height: 0;
-      color: #ff6b39;
+      color: #134081;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -216,19 +217,19 @@
     .cube-btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-      color: #ff8c5a;
+      color: #0a2852;
     }
 
     .long-btn {
       flex: 1;
-      background: linear-gradient(145deg, #262525, #212020);
-      border: 1px solid #444343;
+      background: linear-gradient(145deg, #383839, #2b2b2c);
+      border: 1px solid #4a4a4b;
       border-radius: 18px;
       padding: 0 12px;
       font-size: 1.6rem;
       font-weight: bold;
       line-height: 0;
-      color: #e8e8e8;
+      color: #f8d8b0;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -248,8 +249,8 @@
       min-width: 0;
       display: block;
       border-radius: 35px;
-      border: 1.5px solid #2c2b2b;
-      background: #000;
+      border: 1.5px solid #444445;
+      background: #1e1e1f;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
       transition: filter 0.3s ease, opacity 0.3s ease;
     }
@@ -260,25 +261,25 @@
     }
 
     .active-card {
-      background: linear-gradient(90deg, #ff6b39 0%, #ff8c5a 100%) !important;
-      border: 1px solid #f78c5a !important;
-      color: #fff !important;
+      background: linear-gradient(90deg, #134081 0%, #0a2852 100%) !important;
+      border: 1px solid #1c529e !important;
+      color: #303031 !important;
       font-weight: bold !important;
     }
 
     .active-card .card-title {
-      color: #fff !important;
+      color: #f8d8b0 !important;
     }
 
     .active-card .card-icon {
       background: rgba(255, 255, 255, 0.2);
-      color: #fff;
+      color: #f8d8b0;
     }
 
     .active-btn {
-      background: linear-gradient(145deg, #ff6b39, #e55a2e) !important;
-      border: 1px solid #f78c5a !important;
-      color: #fff !important;
+      background: linear-gradient(145deg, #134081, #0a2852) !important;
+      border: 1px solid #1c529e !important;
+      color: #f8d8b0 !important;
     }
 
     .status-bar {
@@ -286,7 +287,8 @@
       justify-content: space-between;
       align-items: center;
       padding: 12px 0;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       font-size: 0.85rem;
     }
 
@@ -300,19 +302,19 @@
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      background: linear-gradient(45deg, #ff6b39, #ff8c5a);
+      background: linear-gradient(45deg, #134081, #0a2852);
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
+      color: #f8d8b0;
       font-size: 0.9rem;
     }
 
     .loading-indicator {
       width: 16px;
       height: 16px;
-      border: 2px solid #444343;
-      border-top: 2px solid #ff6b39;
+      border: 2px solid #4a4a4b;
+      border-top: 2px solid #134081;
       border-radius: 50%;
       animation: spin 1s linear infinite;
       display: none;
@@ -332,11 +334,11 @@
       position: absolute;
       top: 20px;
       right: 20px;
-      background: #ff6b39;
-      color: white;
+      background: #134081;
+      color: #f8d8b0;
       padding: 10px 16px;
       border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(255, 107, 57, 0.3);
+      box-shadow: 0 5px 15px rgba(19, 64, 129, 0.3);
       opacity: 0;
       transform: translateY(-20px);
       transition: all 0.4s ease;
@@ -358,8 +360,8 @@
       bottom: 100%;
       left: 50%;
       transform: translateX(-50%);
-      background: #ff6b39;
-      color: white;
+      background: #134081;
+      color: #f8d8b0;
       padding: 6px 12px;
       border-radius: 6px;
       font-size: 0.8rem;
@@ -397,7 +399,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background: linear-gradient(145deg, #ff6b39, #e55a2e);
+      background: linear-gradient(145deg, #134081, #0a2852);
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -405,10 +407,10 @@
     }
 
     .popupinfo button {
-      background: #ff8258;
-      box-shadow: 0 5px 0px #ec7a45;
+      background: #1c529e;
+      box-shadow: 0 5px 0px #0e3a75;
       border: none;
-      color: white;
+      color: #f8d8b0;
       padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
@@ -419,14 +421,14 @@
 
     .popupinfo button:hover {
       transform: translateY(5px);
-      box-shadow: 0 5px 15px rgba(255, 107, 57, 0.4);
+      box-shadow: 0 5px 15px rgba(19, 64, 129, 0.4);
     }
 
     .showpop {
       position: fixed;
       top: 20px;
       right: 20px;
-      background: linear-gradient(145deg, #ff6b39, #e55a2e);
+      background: linear-gradient(145deg, #134081, #0a2852);
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -443,13 +445,14 @@
     .showpop h3 {
       margin: 0 0 10px 0;
       font-size: 1.2rem;
-      color: white;
+      color: #f8d8b0;
     }
 
     .showpop p {
       margin: 0 0 15px 0;
       font-size: 0.9rem;
-      color: #fff9f9;
+      color: #f8d8b0;
+      opacity: 0.9;
     }
 
     .showpop-buttons {
@@ -458,10 +461,10 @@
     }
 
     .showpop-btn {
-      background: #ff8258;
-      box-shadow: 0 3px 0px #ec7a45;
+      background: #1c529e;
+      box-shadow: 0 3px 0px #0e3a75;
       border: none;
-      color: white;
+      color: #f8d8b0;
       padding: 8px 12px;
       border-radius: 5px;
       cursor: pointer;
@@ -473,16 +476,16 @@
 
     .showpop-btn:hover {
       transform: translateY(2px);
-      box-shadow: 0 1px 5px rgba(255, 107, 57, 0.4);
+      box-shadow: 0 1px 5px rgba(19, 64, 129, 0.4);
     }
 
     .showpop-btn.try {
-      box-shadow: 0 3px 0px #ff8f5c;
+      box-shadow: 0 3px 0px #2465be;
     }
 
     .showpop-btn.try:hover {
       transform: translateY(2px);
-      box-shadow: 0 1px 5px rgba(255, 200, 80, 0.4);
+      box-shadow: 0 1px 5px rgba(248, 216, 176, 0.4);
     }
 
     .showpop-close {
@@ -491,7 +494,7 @@
       right: 10px;
       background: none;
       border: none;
-      color: white;
+      color: #f8d8b0;
       font-size: 1.2rem;
       cursor: pointer;
       width: 24px;
@@ -520,7 +523,7 @@
     }
 
     .ban-popup-content {
-      background: linear-gradient(145deg, #262525, #212020);
+      background: linear-gradient(145deg, #383839, #2b2b2c);
       border: 2px solid #ff0000;
       border-radius: 20px;
       padding: 40px;
@@ -551,25 +554,25 @@
     }
 
     .ban-popup-content p {
-      color: #e0e0e0;
+      color: #f8d8b0;
       margin-bottom: 15px;
       font-size: 1.1rem;
       line-height: 1.6;
     }
 
     .ban-popup-content a {
-      color: #ff6b39;
+      color: #134081;
       text-decoration: none;
       display: inline-block;
       margin: 10px;
       padding: 8px 16px;
-      border: 1px solid #ff6b39;
+      border: 1px solid #134081;
       border-radius: 8px;
       transition: all 0.3s ease;
     }
 
     .ban-popup-content a:hover {
-      background: rgba(255, 107, 57, 0.2);
+      background: rgba(19, 64, 129, 0.2);
       transform: translateY(-2px);
     }
 
@@ -593,7 +596,7 @@
     }
 
     a {
-      color: white;
+      color: #f8d8b0;
     }
 
     .auth-section {
@@ -622,8 +625,8 @@
     }
 
     .auth-popup-content {
-      background: linear-gradient(145deg, #262525, #212020);
-      border: 1px solid #444343;
+      background: linear-gradient(145deg, #383839, #2b2b2c);
+      border: 1px solid #4a4a4b;
       border-radius: 15px;
       padding: 20px;
       width: 90%;
@@ -649,14 +652,15 @@
 
     .auth-popup-header h3 {
       margin: 0;
-      color: #e0e0e0;
+      color: #f8d8b0;
       font-size: 1.3rem;
     }
 
     .auth-popup-close {
       background: none;
       border: none;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       font-size: 1.5rem;
       cursor: pointer;
       width: 30px;
@@ -669,7 +673,7 @@
 
     .auth-popup-close:hover {
       background: rgba(255, 255, 255, 0.1);
-      color: #fff;
+      opacity: 1;
     }
 
     .auth-popup-body {
@@ -683,7 +687,7 @@
 
     .upgrade-section h4 {
       margin: 0 0 12px 0;
-      color: #e0e0e0;
+      color: #f8d8b0;
       font-size: 1.1rem;
       font-weight: 600;
     }
@@ -706,14 +710,14 @@
     }
 
     .auth-user-info {
-      background: linear-gradient(145deg, #262525, #212020);
-      border: 1px solid #444343;
+      background: linear-gradient(145deg, #383839, #2b2b2c);
+      border: 1px solid #4a4a4b;
       border-radius: 15px;
       padding: 12px;
       display: flex;
       gap: 10px;
       align-items: center;
-      color: #e0e0e0;
+      color: #f8d8b0;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       margin-bottom: 12px;
       height: 70px;
@@ -723,7 +727,7 @@
       width: 44px;
       height: 44px;
       background: rgba(255, 255, 255, 0.1);
-      border: 1px solid #444343;
+      border: 1px solid #4a4a4b;
       border-radius: 12px;
       display: flex;
       align-items: center;
@@ -731,7 +735,8 @@
       cursor: pointer;
       transition: all 0.3s ease;
       font-size: 22px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       margin-left: auto;
     }
 
@@ -742,8 +747,8 @@
 
     .auth-menu-btn.active {
       background: rgba(255, 255, 255, 0.3);
-      color: #fff;
-      border-color: #555454;
+      opacity: 1;
+      border-color: #5a5a5b;
     }
 
     .auth-avatar {
@@ -755,25 +760,25 @@
       justify-content: center;
       font-weight: 700;
       font-size: 14px;
-      color: #fff;
+      color: #f8d8b0;
       flex-shrink: 0;
       transition: all 0.18s ease;
-      background: linear-gradient(135deg, #262525, #1b1a1a);
-      border: 1px solid #444343;
+      background: linear-gradient(135deg, #383839, #242425);
+      border: 1px solid #4a4a4b;
     }
 
     .auth-avatar.vip {
-      box-shadow: 0 0 0 2px rgba(255, 200, 80, 0.2), 0 4px 12px rgba(255, 200, 80, 0.3);
+      box-shadow: 0 0 0 2px rgba(19, 64, 129, 0.2), 0 4px 12px rgba(19, 64, 129, 0.3);
       animation: vipGlow 2s infinite alternate;
     }
 
     @keyframes vipGlow {
       0% {
-        box-shadow: 0 0 0 2px rgba(255, 200, 80, 0.2), 0 4px 12px rgba(255, 200, 80, 0.3);
+        box-shadow: 0 0 0 2px rgba(19, 64, 129, 0.2), 0 4px 12px rgba(19, 64, 129, 0.3);
       }
 
       100% {
-        box-shadow: 0 0 0 2px rgba(255, 200, 80, 0.4), 0 4px 12px rgba(255, 200, 80, 0.5);
+        box-shadow: 0 0 0 2px rgba(19, 64, 129, 0.4), 0 4px 12px rgba(19, 64, 129, 0.5);
       }
     }
 
@@ -787,24 +792,26 @@
     .auth-user-rank {
       font-size: 11px;
       font-weight: 400;
-      color: #666;
+      color: #f8d8b0;
+      opacity: 0.6;
       margin-left: 6px;
       padding: 2px 6px;
       border-radius: 4px;
       background: rgba(0, 0, 0, 0.2);
-      border: 1px solid #444;
+      border: 1px solid #4a4a4b;
     }
 
     .auth-user-rank.pro {
-      color: #ffc850;
-      border-color: #ffc850;
-      background: rgba(255, 200, 80, 0.1);
+      color: #134081;
+      border-color: #134081;
+      background: rgba(19, 64, 129, 0.1);
+      opacity: 1;
     }
 
     .auth-user-rank.free {
-      color: #888;
-      border-color: #555;
-      background: rgba(136, 136, 136, 0.1);
+      color: #f8d8b0;
+      border-color: #4a4a4b;
+      background: rgba(248, 216, 176, 0.1);
     }
 
     .auth-user-rank.yt-pro {
@@ -812,12 +819,13 @@
       border-color: #ff0000;
       background: rgba(255, 0, 0, 0.1);
       font-weight: bold;
+      opacity: 1;
     }
 
     .auth-btn {
-      background: linear-gradient(145deg, #262525, #1b1a1a);
-      color: #e0e0e0;
-      border: 1px solid #444343;
+      background: linear-gradient(145deg, #383839, #242425);
+      color: #f8d8b0;
+      border: 1px solid #4a4a4b;
       padding: 10px 16px;
       border-radius: 10px;
       cursor: pointer;
@@ -830,18 +838,18 @@
     .auth-btn:hover {
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      background: linear-gradient(145deg, #2c2b2b, #212020);
+      background: linear-gradient(145deg, #444445, #2b2b2c);
     }
 
     .auth-btn.secondary {
-      background: linear-gradient(145deg, #262525, #1b1a1a);
+      background: linear-gradient(145deg, #383839, #242425);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-      border: 1px solid #444343;
+      border: 1px solid #4a4a4b;
     }
 
     .auth-btn.secondary:hover {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      background: linear-gradient(145deg, #2c2b2b, #212020);
+      background: linear-gradient(145deg, #444445, #2b2b2c);
     }
 
     .profile-form {
@@ -859,7 +867,8 @@
 
     .form-group label {
       font-size: 12px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       font-weight: 500;
     }
 
@@ -867,9 +876,9 @@
     .form-select {
       padding: 8px 12px;
       border-radius: 8px;
-      border: 1px solid #444343;
-      background: #1b1a1a;
-      color: #e0e0e0;
+      border: 1px solid #4a4a4b;
+      background: #242425;
+      color: #f8d8b0;
       font-size: 14px;
       transition: all 0.3s ease;
     }
@@ -877,8 +886,8 @@
     .form-input:focus,
     .form-select:focus {
       outline: none;
-      border-color: #555454;
-      box-shadow: 0 0 0 2px rgba(85, 84, 84, 0.1);
+      border-color: #5a5a5b;
+      box-shadow: 0 0 0 2px rgba(90, 90, 91, 0.1);
     }
 
     .form-input:disabled,
@@ -889,13 +898,14 @@
 
     .auth-status {
       font-size: 12px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       text-align: center;
       margin-bottom: 8px;
       background: rgba(0, 0, 0, 0.2);
       padding: 6px;
       border-radius: 8px;
-      border: 1px solid #444343;
+      border: 1px solid #4a4a4b;
     }
 
     .profile-actions {
@@ -907,12 +917,13 @@
     .profile-data {
       max-height: 100px;
       overflow-y: auto;
-      background: #1b1a1a;
-      border: 1px solid #444343;
+      background: #242425;
+      border: 1px solid #4a4a4b;
       border-radius: 8px;
       padding: 8px;
       font-size: 12px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       white-space: pre-wrap;
       margin-top: 8px;
       display: none;
@@ -923,13 +934,13 @@
     }
 
     .profile-data::-webkit-scrollbar-thumb {
-      background: #ff6b39;
+      background: #134081;
       border-radius: 2px;
     }
 
     .settings-tabs {
       display: flex;
-      border-bottom: 1px solid #444343;
+      border-bottom: 1px solid #4a4a4b;
       margin-bottom: 20px;
     }
 
@@ -937,7 +948,8 @@
       background: transparent;
       border: none;
       padding: 10px 15px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       font-size: 14px;
       font-weight: 500;
       cursor: pointer;
@@ -946,12 +958,13 @@
     }
 
     .tab-btn:hover {
-      color: #e0e0e0;
+      opacity: 1;
     }
 
     .tab-btn.active {
-      color: #ff6b39;
-      border-bottom: 2px solid #ff6b39;
+      color: #134081;
+      opacity: 1;
+      border-bottom: 2px solid #134081;
     }
 
     .tab-content {
@@ -968,7 +981,7 @@
 
     .credits-info {
       background: rgba(255, 255, 255, 0.05);
-      border: 1px solid #444343;
+      border: 1px solid #4a4a4b;
       border-radius: 10px;
       padding: 15px;
       margin-top: 10px;
@@ -985,21 +998,22 @@
 
     .credit-name {
       font-weight: 600;
-      color: #ff6b39;
+      color: #134081;
       font-size: 14px;
       margin-bottom: 3px;
     }
 
     .credit-role {
       font-size: 12px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       margin-bottom: 3px;
       font-style: italic;
     }
 
     .credit-desc {
       font-size: 12px;
-      color: #c0c0c0;
+      color: #f8d8b0;
       line-height: 1.3;
     }
 
@@ -1009,7 +1023,7 @@
     }
 
     .credits-section h4 {
-      color: #e0e0e0;
+      color: #f8d8b0;
       font-size: 1.1rem;
       font-weight: 600;
       margin-bottom: 12px;
@@ -1017,7 +1031,7 @@
 
     .option-item {
       background: rgba(255, 255, 255, 0.05);
-      border: 1px solid #444343;
+      border: 1px solid #4a4a4b;
       border-radius: 10px;
       padding: 15px;
       margin-bottom: 15px;
@@ -1029,13 +1043,14 @@
 
     .option-label {
       font-weight: 600;
-      color: #e0e0e0;
+      color: #f8d8b0;
       font-size: 14px;
     }
 
     .option-desc {
       font-size: 12px;
-      color: #a0a0a0;
+      color: #f8d8b0;
+      opacity: 0.7;
       margin-top: 3px;
     }
 
@@ -1061,7 +1076,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: #444343;
+      background-color: #4a4a4b;
       transition: 0.3s;
       border-radius: 24px;
     }
@@ -1079,7 +1094,7 @@
     }
 
     input:checked + .toggle-slider {
-      background-color: #ff6b39;
+      background-color: #134081;
     }
 
     input:checked + .toggle-slider:before {
@@ -1088,7 +1103,7 @@
 
     .settings-card {
       background: rgba(255, 255, 255, 0.03);
-      border: 1px solid #3a3939;
+      border: 1px solid #3e3e3f;
       border-radius: 12px;
       padding: 16px;
       margin-bottom: 12px;
@@ -1099,7 +1114,7 @@
 
     .section-title {
       font-weight: 700;
-      color: #ff6b39;
+      color: #134081;
       font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -1108,7 +1123,7 @@
 
     .profile-section-title {
       font-weight: 700;
-      color: #ff6b39;
+      color: #134081;
       font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -1137,21 +1152,22 @@
     .install-guide-content {
       width: 100%;
       max-width: 560px;
-      background: linear-gradient(145deg, #262525, #212020);
-      border: 1px solid #444343;
+      background: linear-gradient(145deg, #383839, #2b2b2c);
+      border: 1px solid #4a4a4b;
       border-radius: 16px;
       padding: 20px;
-      color: #e0e0e0;
+      color: #f8d8b0;
     }
 
     .install-guide-content h3 {
       margin: 0 0 12px 0;
-      color: #ff8c5a;
+      color: #0a2852;
     }
 
     .install-guide-content p {
       margin: 0 0 12px 0;
-      color: #c4c4c4;
+      color: #f8d8b0;
+      opacity: 0.8;
       font-size: 14px;
       line-height: 1.45;
     }
@@ -1167,8 +1183,8 @@
       position: fixed;
       inset: 0;
       z-index: 10002;
-      background: radial-gradient(circle at center, #1f1b1b 0%, #141313 70%);
-      color: #f1f1f1;
+      background: radial-gradient(circle at center, #353536 0%, #303031 70%);
+      color: #f8d8b0;
       align-items: center;
       justify-content: center;
       text-align: center;
@@ -1182,7 +1198,7 @@
     #mobile-landscape-lock .lock-icon {
       font-size: 2.2rem;
       margin-bottom: 12px;
-      color: #ff6b39;
+      color: #134081;
     }
 
     #mobile-landscape-lock h2 {
@@ -1193,7 +1209,8 @@
 
     #mobile-landscape-lock p {
       margin: 0;
-      color: #bdbdbd;
+      color: #f8d8b0;
+      opacity: 0.8;
       font-size: 0.95rem;
       line-height: 1.4;
     }
@@ -1374,7 +1391,7 @@
     <p>If you believe this is an error, please contact our support team.</p>
     <div style="margin: 20px 0;">
       <a href="https://discord.com/invite/nVgUe4qrhr" target="_blank"
-        style="color: #ff6b39; text-decoration: none; display: inline-block; margin: 10px;">
+        style="color: #134081; text-decoration: none; display: inline-block; margin: 10px;">
         <i class="fab fa-discord"></i> Discord Support
       </a>
     </div>
@@ -1530,7 +1547,7 @@
                       <button class="auth-btn" id="redeem-code-btn"
                         style="padding: 8px 12px; font-size: 12px;">Redeem</button>
                     </div>
-                    <div id="code-message" style="font-size: 12px; min-height: 18px; color: #a0a0a0;"></div>
+                    <div id="code-message" style="font-size: 12px; min-height: 18px; color: #f8d8b0; opacity: 0.7;"></div>
                   </div>
                 </div>
                 <div class="tab-pane" id="credits-tab">
@@ -1664,11 +1681,11 @@
     }
 
     function getOrCreateGradient(username) {
-      if (!username) return 'linear-gradient(135deg, #ff6b39, #ff8c5a)';
+      if (!username) return 'linear-gradient(135deg, #134081, #0a2852)';
       const key = 'Facet-gradient:' + username;
       let v = localStorage.getItem(key);
       if (v) return v;
-      const colors = ['#ff6b39', '#ff8c5a', '#e55a2e', '#ff7849', '#f7834a'];
+      const colors = ['#134081', '#0a2852', '#1c529e', '#0e3a75', '#2465be'];
       const g = `linear-gradient(135deg, ${colors[Math.floor(Math.random() * colors.length)]}, ${colors[Math.floor(Math.random() * colors.length)]})`;
       localStorage.setItem(key, g);
       return g;
@@ -1700,7 +1717,7 @@
         } else if (section === 'Pro' && CURRENT_USER?.proExpiration) {
           if (CURRENT_USER.proExpiration === 'forever') {
             authUserRank.textContent = 'Pro';
-            authUserRank.style.color = '#ffc850';
+            authUserRank.style.color = '#134081';
           } else {
             const expirationTime = new Date(CURRENT_USER.proExpiration);
             const timeLeft = Math.max(0, Math.floor((expirationTime.getTime() - Date.now()) / (1000 * 60)));
@@ -1711,12 +1728,12 @@
             } else {
               authUserRank.textContent = `Pro (${timeLeft}m)`;
             }
-            authUserRank.style.color = '#666';
+            authUserRank.style.color = '#f8d8b0';
           }
           authUserRank.className = 'auth-user-rank pro';
         } else {
           authUserRank.textContent = section;
-          authUserRank.style.color = '#666';
+          authUserRank.style.color = '#f8d8b0';
           authUserRank.className = `auth-user-rank ${section.toLowerCase()}`;
         }
 
@@ -1917,7 +1934,7 @@
         authUsername.textContent = 'Not signed in';
         authUserRank.style.display = 'none';
         authAvatar.textContent = '?';
-        authAvatar.style.background = 'linear-gradient(135deg, #ff6b39, #ff8c5a)';
+        authAvatar.style.background = 'linear-gradient(135deg, #134081, #0a2852)';
         authAvatar.classList.remove('vip');
 
         signInBtn.style.display = 'block';
@@ -1951,7 +1968,6 @@
         return;
       }
 
-      // Cancel check: ensure form values are valid
       if (!profileDescription || !profileSection) {
         showNotification('Form elements not found');
         return;
@@ -1970,7 +1986,6 @@
       }
 
       try {
-        // Cancel check: verify puter.fs is available
         if (!puter?.fs) {
           showNotification('File system not available');
           return;
@@ -2165,7 +2180,7 @@
 
         if (authUserRank) {
           authUserRank.textContent = 'Pro';
-          authUserRank.style.color = '#ffc850';
+          authUserRank.style.color = '#134081';
         }
 
         showNotification('🎉 Congratulations! You are now a Pro user forever!');
@@ -2496,31 +2511,6 @@
       }
     });
 
-    signInBtn.addEventListener('click', async () => {
-      try {
-        const user = await puter.auth.signIn();
-        let userData = user;
-
-        if (!user?.username) {
-          if (typeof puter.auth.getUserData === 'function') {
-            userData = await puter.auth.getUserData();
-          } else if (typeof puter.auth.getUser === 'function') {
-            userData = await puter.auth.getUser();
-          }
-        }
-
-        if (userData?.username && checkIfUserIsBanned(userData.username)) {
-          showBanPopup();
-          return;
-        }
-
-        await setSignedIn(userData || user);
-      } catch (e) {
-        showNotification('Sign in failed');
-        console.error(e);
-      }
-    });
-
     signOutBtn.addEventListener('click', async () => {
       try {
         if (typeof puter.auth.signOut === 'function') {
@@ -2623,7 +2613,7 @@
           height: 100vh;
           border: none;
           z-index: 10000;
-          background: #1b1a1a;
+          background: #242425;
         `;
 
         document.body.appendChild(upgradeFrame);
@@ -2635,8 +2625,8 @@
           top: 20px;
           right: 20px;
           z-index: 10001;
-          background: #ff6b39;
-          color: white;
+          background: #134081;
+          color: #f8d8b0;
           border: none;
           width: 40px;
           height: 40px;
@@ -2677,7 +2667,7 @@
         height: 100vh;
         border: none;
         z-index: 10000;
-        background: #1b1a1a;
+        background: #242425;
       `;
 
       document.body.appendChild(upgradeFrame);
@@ -2689,8 +2679,8 @@
         top: 20px;
         right: 20px;
         z-index: 10001;
-        background: #ff6b39;
-        color: white;
+        background: #134081;
+        color: #f8d8b0;
         border: none;
         width: 40px;
         height: 40px;
@@ -2708,9 +2698,8 @@
       document.body.appendChild(closeBtn);
     });
 
-    // Game Upgrade Modal Variables
     let gameTimerInterval = null;
-    let gameTimerSeconds = 300; // 5 minutes
+    let gameTimerSeconds = 300;
     let gameUpgradeUsed = localStorage.getItem('gameUpgradeUsed') === 'true';
 
     document.getElementById('open-game-upgrade-btn').addEventListener('click', function () {
@@ -2819,8 +2808,8 @@
         position: absolute;
         top: -40px;
         right: 0;
-        background: #ff6b39;
-        color: white;
+        background: #134081;
+        color: #f8d8b0;
         border: none;
         width: 36px;
         height: 36px;
@@ -2891,7 +2880,6 @@
       });
     });
 
-    // Blur toggle functionality
     const blurToggle = document.getElementById('blur-toggle');
     if (blurToggle) {
       const isBlurDisabled = localStorage.getItem('disable-blur') === 'true';
@@ -3024,8 +3012,6 @@
       }
     });
 
-    // handleWalkthroughPurpose function removed as part of simplification
-
     fullscreenBtn.addEventListener('click', () => {
       if (CURRENT_USER?.username && checkIfUserIsBanned(CURRENT_USER.username)) {
         showBanPopup();
@@ -3039,9 +3025,6 @@
         const rootEl = document.documentElement;
         const activeFullscreenEl = document.fullscreenElement;
 
-        // Mobile cycle:
-        // 1st tap -> fullscreen the site
-        // 2nd tap -> fullscreen the iframe without leaving fullscreen mode
         if (!activeFullscreenEl) {
           rootEl.requestFullscreen().catch(err => {
             showNotification('Fullscreen failed: ' + err.message);
@@ -3150,15 +3133,11 @@
       showNotification('Facet installed successfully');
     });
 
-    // Disable service worker for regular browser users
-    // Only PWA-installed users should use caching
     if ('serviceWorker' in navigator) {
-      // Don't register at all - always get fresh content from network
       console.log('Service worker disabled for non-PWA users');
     }
 
     function showGameUpgradeModal() {
-      // Create modal overlay
       const modal = document.createElement('div');
       modal.id = 'game-upgrade-modal';
       modal.style.cssText = `
@@ -3177,8 +3156,8 @@
 
       const modalContent = document.createElement('div');
       modalContent.style.cssText = `
-        background: linear-gradient(145deg, #262525, #212020);
-        border: 1px solid #444343;
+        background: linear-gradient(145deg, #383839, #2b2b2c);
+        border: 1px solid #4a4a4b;
         border-radius: 20px;
         padding: 30px;
         width: 90%;
@@ -3191,7 +3170,7 @@
       const header = document.createElement('h2');
       header.textContent = 'Game Reward';
       header.style.cssText = `
-        color: #e0e0e0;
+        color: #f8d8b0;
         margin: 0 0 20px 0;
         font-size: 1.8rem;
         font-weight: 700;
@@ -3200,7 +3179,8 @@
       const description = document.createElement('p');
       description.textContent = 'Play my game for 5 minutes to earn 4 days of Pro!';
       description.style.cssText = `
-        color: #a0a0a0;
+        color: #f8d8b0;
+        opacity: 0.7;
         margin: 0 0 25px 0;
         font-size: 1.1rem;
         line-height: 1.5;
@@ -3212,18 +3192,17 @@
       timerDisplay.style.cssText = `
         font-size: 2.5rem;
         font-weight: 800;
-        color: #ff6b39;
+        color: #134081;
         margin: 20px 0;
         font-family: monospace;
       `;
 
-      // Play button
       const playButton = document.createElement('button');
       playButton.id = 'play-game-btn';
       playButton.textContent = 'Start Playing!';
       playButton.style.cssText = `
-        background: linear-gradient(145deg, #ff6b39, #e55a2e);
-        color: white;
+        background: linear-gradient(145deg, #134081, #0a2852);
+        color: #f8d8b0;
         border: none;
         padding: 15px 30px;
         border-radius: 12px;
@@ -3233,318 +3212,18 @@
         margin: 15px 0;
         width: 100%;
         transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(255, 107, 57, 0.3);
+        box-shadow: 0 4px 15px rgba(19, 64, 129, 0.3);
       `;
 
       playButton.addEventListener('mouseover', () => {
         playButton.style.transform = 'translateY(-2px)';
-        playButton.style.boxShadow = '0 6px 20px rgba(255, 107, 57, 0.4)';
+        playButton.style.boxShadow = '0 6px 20px rgba(19, 64, 129, 0.4)';
       });
 
       playButton.addEventListener('mouseout', () => {
         playButton.style.transform = 'translateY(0)';
-        playButton.style.boxShadow = '0 4px 15px rgba(255, 107, 57, 0.3)';
+        playButton.style.boxShadow = '0 4px 15px rgba(19, 64, 129, 0.3)';
       });
-
-      // Close button
-      const closeButton = document.createElement('button');
-      closeButton.id = 'game-modal-close';
-      closeButton.innerHTML = '×';
-      closeButton.style.cssText = `
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        background: rgba(255, 255, 255, 0.1);
-        color: #a0a0a0;
-        border: 1px solid #444343;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        font-size: 1.5rem;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
-      `;
-
-      closeButton.addEventListener('mouseover', () => {
-        closeButton.style.background = 'rgba(255, 255, 255, 0.2)';
-        closeButton.style.borderColor = '#ff6b39';
-        closeButton.style.color = '#ff6b39';
-      });
-
-      closeButton.addEventListener('mouseout', () => {
-        closeButton.style.background = 'rgba(255, 255, 255, 0.1)';
-        closeButton.style.borderColor = '#444343';
-        closeButton.style.color = '#a0a0a0';
-      });
-
-      // Assemble modal
-      modalContent.appendChild(closeButton);
-      modalContent.appendChild(header);
-      modalContent.appendChild(description);
-      modalContent.appendChild(timerDisplay);
-      modalContent.appendChild(playButton);
-      modal.appendChild(modalContent);
-      document.body.appendChild(modal);
-
-      // Event listeners
-      playButton.addEventListener('click', startGameChallenge);
-      closeButton.addEventListener('click', closeGameModal);
-      // Removed click-outside-to-close functionality to prevent accidental closure during game
-    }
-
-    function startGameChallenge() {
-      const playButton = document.getElementById('play-game-btn');
-      const timerDisplay = document.getElementById('game-timer-display');
-      const closeButton = document.getElementById('game-modal-close');
-      
-      // Open game in new tab
-      window.open('https://aix-32.github.io/CoreGrid/', '_blank');
-      
-      // Hide close button
-      if (closeButton) {
-        closeButton.style.display = 'none';
-      }
-      
-      // Disable play button and update style to match other buttons
-      playButton.disabled = true;
-      playButton.textContent = 'Playing... Come back in 5 minutes!';
-      playButton.style.background = 'linear-gradient(145deg, #262525, #1b1a1a)';
-      playButton.style.border = '1px solid #444343';
-      playButton.style.color = '#e0e0e0';
-      playButton.style.cursor = 'not-allowed';
-      playButton.style.opacity = '0.7';
-      
-      // Start timer
-      gameTimerSeconds = 300; // Reset to 5 minutes
-      updateTimerDisplay(timerDisplay);
-      
-      gameTimerInterval = setInterval(() => {
-        gameTimerSeconds--;
-        updateTimerDisplay(timerDisplay);
-        
-        if (gameTimerSeconds <= 0) {
-          clearInterval(gameTimerInterval);
-          completeGameChallenge();
-        }
-      }, 1000);
-    }
-
-    function updateTimerDisplay(displayElement) {
-      const minutes = Math.floor(gameTimerSeconds / 60);
-      const seconds = gameTimerSeconds % 60;
-      displayElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-      
-      // Change color when time is running low
-      if (gameTimerSeconds <= 60) {
-        displayElement.style.color = '#ff4757';
-      } else {
-        displayElement.style.color = '#ff6b39';
-      }
-    }
-
-    function completeGameChallenge() {
-      // Clear interval just in case
-      if (gameTimerInterval) {
-        clearInterval(gameTimerInterval);
-        gameTimerInterval = null;
-      }
-      
-      // Mark as used
-      gameUpgradeUsed = true;
-      localStorage.setItem('gameUpgradeUsed', 'true');
-      
-      // Grant 4 days of Pro status
-      upgradeUserToProFourDays();
-      
-      // Show success message
-      showNotification('🎉 Congratulations! You earned 4 days of Pro status!');
-      
-      // Close modal
-      closeGameModal();
-    }
-
-    function closeGameModal() {
-      const modal = document.getElementById('game-upgrade-modal');
-      if (modal) {
-        modal.remove();
-      }
-      
-      // Clear timer if it's running
-      if (gameTimerInterval) {
-        clearInterval(gameTimerInterval);
-        gameTimerInterval = null;
-      }
-    }
-
-    async function upgradeUserToProFourDays() {
-      if (!CURRENT_USER?.username) return;
-      
-      try {
-        const expirationTime = new Date(Date.now() + 4 * 24 * 60 * 60 * 1000); // 4 days
-        const payload = {
-          description: profileDescription.value.trim() || 'Pro User',
-          section: 'Pro',
-          savedAt: new Date().toISOString(),
-          app: 'Facet',
-          upgradedAt: new Date().toISOString(),
-          proExpiration: expirationTime.toISOString()
-        };
-        
-        await puter.fs.write(filenameForUser(), JSON.stringify(payload, null, 2));
-        
-        profileSection.value = 'Pro';
-        applyVipStyle('Pro');
-        updateUserRank('Pro');
-        
-        if (CURRENT_USER) {
-          CURRENT_USER.userType = 'Pro';
-          CURRENT_USER.proExpiration = expirationTime.toISOString();
-          saveToLocalStorage('Facet-user', CURRENT_USER);
-        }
-        
-        manageAdsForUserType('Pro');
-        
-        profileForm.style.display = 'none';
-        profileData.style.display = 'block';
-        profileData.innerHTML = `Description: ${payload.description}\nAccount Type: Pro (Expires in 4 days)\n\n<button class="auth-btn" onclick="showEditForm()">Edit Profile</button>`;
-        
-        if (authUserRank) {
-          authUserRank.textContent = 'Pro (4d)';
-        }
-        
-      } catch (e) {
-        showNotification('Error upgrading to Pro');
-        console.error(e);
-      }
-    }
-
-    if (localStorage.getItem("popupinfo")) {
-      document.getElementById("popupinfo").style.display = "none";
-    }
-
-    document.getElementById("closePopup").addEventListener("click", () => {
-      document.getElementById("popupinfo").style.display = "none";
-      localStorage.setItem("popupinfo", Date.now());
-    });
-
-    function initShowPop() {
-      const showpop = document.getElementById('showpop');
-      const showpopClose = document.getElementById('showpopClose');
-      const showpopDismiss = document.getElementById('showpopDismiss');
-      const showpopTry = document.getElementById('showpopTry');
-
-      const currentUserType = getCurrentUserType();
-      const isProUser = currentUserType === 'Pro' || currentUserType === 'YT Pro';
-
-      if (isProUser) {
-        return;
-      }
-
-      const lastDismissed = localStorage.getItem('showpopDismissed');
-
-      if (lastDismissed === 'pro_user') {
-        return;
-      }
-
-      const shouldShowPopup = !lastDismissed || (Date.now() - parseInt(lastDismissed)) > (2 * 60 * 60 * 1000);
-
-      if (shouldShowPopup) {
-        setTimeout(() => {
-          showpop.classList.add('show');
-        }, 5000);
-      }
-
-      showpopClose.addEventListener('click', () => {
-        showpop.classList.remove('show');
-      });
-
-      showpopDismiss.addEventListener('click', () => {
-        showpop.classList.remove('show');
-        localStorage.setItem('showpopDismissed', Date.now());
-      });
-
-      showpopTry.addEventListener('click', () => {
-        showpop.classList.remove('show');
-        if (CURRENT_USER?.username) {
-          const upgradeFrame = document.createElement('iframe');
-          upgradeFrame.id = 'upgrade-frame';
-          upgradeFrame.src = './assets/upgrade-pro.html';
-          upgradeFrame.title = 'Upgrade to Facet Pro';
-          upgradeFrame.style.cssText = `
-            position: fixed;
-            inset: 0;
-            width: 100vw;
-            height: 100vh;
-            border: none;
-            z-index: 10000;
-            background: #1b1a1a;
-          `;
-
-          document.body.appendChild(upgradeFrame);
-
-          const closeBtn = document.createElement('button');
-          closeBtn.innerHTML = '×';
-          closeBtn.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 10001;
-            background: #ff6b39;
-            color: white;
-            border: none;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            font-size: 24px;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-          `;
-
-          closeBtn.addEventListener('click', function () {
-            upgradeFrame.remove();
-            closeBtn.remove();
-          });
-
-          document.body.appendChild(closeBtn);
-        } else {
-          showNotification('Please sign in first to upgrade to Pro');
-          const authPopup = document.getElementById('auth-popup');
-          if (authPopup.style.display !== 'flex') {
-            authPopup.style.display = 'flex';
-            authMenuBtn.classList.add('active');
-          }
-        }
-      });
-    }
-
-    initShowPop();
-
-    document.addEventListener('click', (e) => {
-      const authPopup = document.getElementById('auth-popup');
-      if (authPopup.style.display === 'flex' &&
-        !authPopup.contains(e.target) &&
-        !authUserInfo.contains(e.target)) {
-        authPopup.style.display = 'none';
-        authMenuBtn.classList.remove('active');
-      }
-    });
-
-    document.querySelectorAll('.tab-btn').forEach(button => {
-      button.addEventListener('click', () => {
-
-        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-        document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
-
-        button.classList.add('active');
-
-        const tabId = button.getAttribute('data-tab');
-        document.getElementById(`${tabId}-tab`).classList.add('active');
-      });
-    });
   </script>
 </body>
-
 </html>
